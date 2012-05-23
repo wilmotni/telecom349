@@ -59,10 +59,10 @@ font-style:none;
 font-size:small;
 }
 a:link {
-	color:white;
+	color:grey;
 }
 a:visited {
-	color:white;
+	color:grey;
 }
 a:hover {
 	color:black;
@@ -75,7 +75,7 @@ header {
 	background-color:white;
 }
 h1 {
-	font-size:72px;
+	font-size:64px;
 }
 h2 {
 	color:grey;
@@ -91,6 +91,7 @@ h2 {
 }
 nav {
 	text-align:center;
+	font-size:14px;
 	padding-right:33%;
 	padding-left:10%;
 	padding-bottom:12px;
