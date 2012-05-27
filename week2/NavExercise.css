@@ -1,0 +1,96 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-size:small;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+nav[role="navigation"] {
+	float:left;
+	margin: 0;
+	padding: 10px 0 0 46px;
+	list-style: none;
+	background: #FFCB2D;
+}
+nav[role="navigation"] li {
+	float: left;
+	margin: 0 1px 0 0;
+	padding:0;
+	font-family: "Lucida Grande", sans-serif;
+	font-size:80%;
+}
+nav[role="navigation"] ul {
+	float:left;
+	width:720px;
+	margin: 0;
+	list-style:none;
+	background: #FFCB2D url(nav_bg.gif) repeat-x bottom left;
+}
+nav[role="navigation"] ul li {
+	float:left;
+	margin: 0 1px 0 0;
+	padding: 0;
+	font-family:"Lucida Grande", sans-serif;
+	font-size:80%;
+}
+nav[role="navigation"] ul li a {
+	float:left;
+	display:block;
+	margin: 0;
+	padding:4px 8px;
+	color: #333;
+	text-decoration:none;
+	border: 1px solid #9B8748;
+	border-bottom:none;
+	background: #F9E9A9 url(off_bg.gif) repeat-x top left;
+}
+nav[role="navigation"] ul li a:hover {
+	color: #333;
+	padding-bottom: 5px;
+	border-color: #727377;
+	background: #FFF url(on_bg.gif) repeat-x top left;
+}
+nav[role="navigation"] a:hover, body#intro #t-intro a {
+}
