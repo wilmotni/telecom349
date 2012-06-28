@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JQuery</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<style type="text/css">
+	#box {
+	background: blue;
+	width: 300px;
+	height: 300px;
+	</style>
+	<script type="text/javascript">
+		$(function() {
+			$('a').click(function() {
+				$('#box').fadeOut(2000);
+			});
+		});
+		$(function() {
+			$('a').click(function() {
+				$('#box').SlideUp(2000);
+			});
+		});
+			$(function() {
+			$('a').click(function() {
+				$('#box').fadeIn(2000);
+			});
+		});
+	</script>
+</head>
+<body>
+<ul>
+<li><div id="box" /></div>
+<a href="#">Fade Out</a></li>
+<li><div id="box" /></div>
+<a href="#">Slide</a></li>
+<li><div id="box" /></div>
+<a href="#">Fade In</a></li>
+</ul>
+</body>
+
+</html>

@@ -126,18 +126,21 @@ nav[role="navigation"] ul lu a:active {
 }
 #content {
 	float: left;
-	width: 65%;
-	margin-right: 5%;
-	padding: 20px;
+	width: 100%;
+	margin-right: 0;
+	padding: 100px;
 	background: #EED8AE;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+p {
+	font-size: 110%;
+}
 #sidebar {
 	float: left;
 	width: 30%;
-	padding: 20px;
+	padding: 50px;
 	background: #EED8AE;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -163,9 +166,10 @@ footer[role="contentinfo"] {
 	clear: clear; 
 	float: left;
 	margin: 10px 20px;
-	padding: 0;
+	padding: 40px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	font-size: 110$%;
 	border: 3px solid #996633;
 }
 #LatestNews dl {
